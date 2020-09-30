@@ -11,25 +11,36 @@
           box-sizing: border-box;
           font-family: "huxiaobo-gdh1e91397a5f211c5", "PingFang SC", "Microsoft Yahei",
             sans-serif;
-          background: url("MidAutumnFestival.jpg");
+          /* background: url("NationalDay_MidAutumnFestival.jpg") fixed no-repeat; */
+        }
+
+        .container {
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: url("MidAutumnFestival.jpg") fixed no-repeat;
+          /* background-repeat: no-repeat; */
+          background-size: cover;
         }
         
         main {
           /* background: #2f3542; */
           display: flex;
-          align-items: center;
+          align-items: flex-start;
           justify-content: center;
           height: 100vh;
         }
         
         h1 {
-          color: #f1f2f6;
+          color: #f0ec0d;
           font-size: 5em;
           font-weight: 300;
         }
         
         span.mark {
-          border-right: 2px solid white;
+          border-right: 2px solid rgb(14, 13, 13);
           animation: blink 0.6s step-end infinite;
         }
         
@@ -46,19 +57,21 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- 定位文本到浏览器中央 -->
-    <main>
-      <!-- 文字容器，统一由h1控制 -->
-      <h1>
-        <!-- 使用span显示文字, data-text为Json格式的数组 -->
-        <span
-          id="text"
-          data-text='["我是", "我是", "我热爱"]'
-        ></span>
-        <!-- 闪烁的光标 -->
-        <span class="mark"></span>
-      </h1>
-    </main>
+    <div class="container">
+      <!-- 定位文本到浏览器中央 -->
+      <main>
+        <!-- 文字容器，统一由h1控制 -->
+        <h1>
+          <!-- 使用span显示文字, data-text为Json格式的数组 -->
+          <span
+            id="text"
+            data-text='["我是", "我是", "我热爱"]'
+          ></span>
+          <!-- 闪烁的光标 -->
+          <span class="mark"></span>
+        </h1>
+      </main>
+    </div>
 
     <script type="text/javascript">
     // 获取显示文字的span元素
