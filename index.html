@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable: yes;" />
     <!-- 引用有字库站酷高端黑字体 -->
     <style>
       * {
@@ -20,8 +20,8 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          background: url("MidAutumnFestival.bmp") no-repeat;
-          /* background-repeat: no-repeat; */
+          background: url("yuandanjie.jpg") no-repeat;
+          background-repeat: no-repeat;
           /* background-size: cover; */
         }
         
@@ -34,7 +34,7 @@
         }
         
         h1 {
-          color: #f0ec0d;
+          color: #f3bc09;
           font-size: 20px;
           font-weight: 300;
         }
@@ -54,7 +54,7 @@
           }
         }
     </style>
-    <title>Mid_AutumnFestival</title>
+    <title>元旦节</title>
   </head>
   <body>
     <div class="container">
@@ -65,7 +65,7 @@
           <!-- 使用span显示文字, data-text为Json格式的数组 -->
           <span
             id="text"
-            data-text='["中秋节快乐"]'
+            data-text='["元旦快乐各位！！！"]'
           ></span>
           <!-- 闪烁的光标 -->
           <span class="mark"></span>
@@ -137,6 +137,9 @@
     }
 
     window.requestAnimationFrame(type);
+    // <img class="source-image" src="shuangjiang.jpg" alt="" />
+    // $(document).ready(function() { var $winwidth = $(window).width(); $("img.source-image").attr({ width: $winwidth }); $(window).bind("resize", function(){ var $winwidth = $(window).width(); $("img.source-image").attr({ width: $winwidth }); }); });
+    // img.source-image {position: absolute;top: 0;left: 0}
     </script>
   </body>
 </html>
