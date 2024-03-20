@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T01:24:19.552Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="VMxamrOUVGvKKJCsVNxg" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T01:25:43.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="RXXhuiBA1rAE28hnW6RR" version="24.0.7" type="github">
   <diagram name="第 1 页" id="FLhpQUBvhcODgrL7Z7iP">
     <mxGraphModel dx="1343" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2514,6 +2514,45 @@
         </mxCell>
         <mxCell id="aKgN0MsUDWsAjdY4Z-UM-25" value="前向传播前" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="570.25" y="12605" width="99.75" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="aKgN0MsUDWsAjdY4Z-UM-27" value="9" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="173.73" y="12845" width="46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aKgN0MsUDWsAjdY4Z-UM-28" value="3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="219.73" y="12845" width="44" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aKgN0MsUDWsAjdY4Z-UM-29" value="3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="68.23" y="12845" width="46" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aKgN0MsUDWsAjdY4Z-UM-30" value="4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114.23" y="12845" width="44" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aKgN0MsUDWsAjdY4Z-UM-31" value="batch 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="183.73" y="12805" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aKgN0MsUDWsAjdY4Z-UM-32" value="batch 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="88.73" y="12805" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aKgN0MsUDWsAjdY4Z-UM-33" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="313.73" y="12770" width="197" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="aKgN0MsUDWsAjdY4Z-UM-34" value="trainer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="328.73" y="12785" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aKgN0MsUDWsAjdY4Z-UM-35" value="cache：3， 4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361.73" y="12905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aKgN0MsUDWsAjdY4Z-UM-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="aKgN0MsUDWsAjdY4Z-UM-37" target="aKgN0MsUDWsAjdY4Z-UM-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aKgN0MsUDWsAjdY4Z-UM-37" value="当前批次" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="181.73" y="12965" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aKgN0MsUDWsAjdY4Z-UM-38" value="fetch：3，4" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="346.73" y="12835" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aKgN0MsUDWsAjdY4Z-UM-39" value="前向/后向传播过程中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="565.98" y="12845" width="99.75" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
