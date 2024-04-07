@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-04-07T07:38:03.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="UtH8EUOrxLDxvGPbAVYZ" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-07T08:50:26.981Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="S7bEdRUGNgddfaM4VYyC" version="24.2.1" type="github">
   <diagram name="第 1 页" id="FLhpQUBvhcODgrL7Z7iP">
-    <mxGraphModel dx="1829" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2163" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e_udUHRprqo6hbNTnavP-65" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="18280" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-69" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="18310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-68" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="18320" width="80" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="74KBgOfMscfog7DpRWT4-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=5;" parent="1" source="74KBgOfMscfog7DpRWT4-275" target="74KBgOfMscfog7DpRWT4-253" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -3294,11 +3303,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_udUHRprqo6hbNTnavP-2" value="结构：&lt;div&gt;emb indexes --&amp;gt; page id&lt;/div&gt;&lt;div&gt;+ offset&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="e_udUHRprqo6hbNTnavP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-2" target="e_udUHRprqo6hbNTnavP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-22" value="offset" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-21">
+          <mxGeometry x="0.3288" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-2" value="结构1：&lt;div&gt;emb indexes --&amp;gt; page id&lt;/div&gt;&lt;div&gt;+ offset&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-103.02" y="16900" width="185" height="150" as="geometry" />
         </mxCell>
         <mxCell id="e_udUHRprqo6hbNTnavP-3" value="记录每个emb index所在的页及其在页中的偏移" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-152.01999999999998" y="17060" width="270.52" height="10" as="geometry" />
+          <mxGeometry x="-138.53999999999996" y="16880" width="270.52" height="10" as="geometry" />
         </mxCell>
         <mxCell id="e_udUHRprqo6hbNTnavP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-5" target="e_udUHRprqo6hbNTnavP-14">
           <mxGeometry relative="1" as="geometry">
@@ -3310,14 +3327,316 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e_udUHRprqo6hbNTnavP-5" value="结构：&lt;div&gt;page id --&amp;gt; SSD起始物理地址&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="e_udUHRprqo6hbNTnavP-5" value="结构2：&lt;div&gt;page id --&amp;gt; SSD起始物理地址&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="188.00000000000003" y="16917.5" width="186.5" height="115" as="geometry" />
         </mxCell>
         <mxCell id="e_udUHRprqo6hbNTnavP-9" value="记录每个页在SSD中的起始地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="181.5" y="17050" width="202" height="20" as="geometry" />
+          <mxGeometry x="179.62" y="16880" width="202" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="e_udUHRprqo6hbNTnavP-14" value="SSD" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="e_udUHRprqo6hbNTnavP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-14" target="e_udUHRprqo6hbNTnavP-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="17120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-20" value="返回emb a 所在的页" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-17">
+          <mxGeometry x="0.3211" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-14" value="SSD" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="501" y="16935" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-19" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="17080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-24" value="emb a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="17090" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-25" target="e_udUHRprqo6hbNTnavP-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="17280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-29" value="将该页写入SSD中新的位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-27">
+          <mxGeometry x="-0.1395" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-25" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="17240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-26" value="emb a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="17250" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-28" target="e_udUHRprqo6hbNTnavP-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-32" value="用新起始地址更新结构2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-31">
+          <mxGeometry x="0.0816" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-28" value="SSD" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="154.5" y="17240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-30" value="结构2：&lt;div&gt;page id --&amp;gt; SSD起始物理地址&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-149.99999999999997" y="17390" width="186.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-33" value="记录每个页在SSD中的起始地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-159" y="17515" width="202" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-34" target="e_udUHRprqo6hbNTnavP-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="17640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-34" value="根据部分输入数据分析出不同相关度的&lt;font color=&quot;#ff0000&quot;&gt;embs&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-250.00000000000003" y="17610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-36" value="根据embs的相关性将emb table拆分成不同的pages存储在SSD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-49.77000000000001" y="17610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-38" target="e_udUHRprqo6hbNTnavP-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-47" value="初始化结构1和结构2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-46">
+          <mxGeometry x="-0.0254" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-235.25" y="17740" width="492" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-42" value="结构1：&lt;div&gt;emb indexes --&amp;gt; page id&lt;/div&gt;&lt;div&gt;+ offset&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-193.61999999999998" y="17790" width="185" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-43" value="记录每个emb index所在的页及其在页中的偏移" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-229.13999999999996" y="17770" width="270.52" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-44" value="结构2：&lt;div&gt;page id --&amp;gt; SSD起始物理地址&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="49.76" y="17807.5" width="186.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-45" value="记录每个页在SSD中的起始地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="41.38" y="17770" width="202" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-49" target="e_udUHRprqo6hbNTnavP-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-49" value="emb a index" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-262" y="18220" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-54" target="e_udUHRprqo6hbNTnavP-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-51" value="page id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-50">
+          <mxGeometry x="-0.0828" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-54" target="e_udUHRprqo6hbNTnavP-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-53" value="offset" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-52">
+          <mxGeometry x="0.3288" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.018;exitY=0.872;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-54" target="e_udUHRprqo6hbNTnavP-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-64" y="18291" />
+              <mxPoint x="-440" y="18290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-75" value="page id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-73">
+          <mxGeometry x="0.1113" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-54" value="结构1：&lt;div&gt;emb indexes --&amp;gt; page id&lt;/div&gt;&lt;div&gt;+ offset&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-110.52" y="18160" width="185" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-55" value="记录每个emb index所在的页及其在页中的偏移" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-146.03999999999996" y="18140" width="270.52" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-58" target="e_udUHRprqo6hbNTnavP-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="477.5" y="18235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-57" value="起始地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-56">
+          <mxGeometry x="-0.1113" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-58" value="结构2：&lt;div&gt;page id --&amp;gt; SSD起始物理地址&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180.50000000000003" y="18177.5" width="186.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-59" value="记录每个页在SSD中的起始地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="172.12" y="18140" width="202" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-62" target="e_udUHRprqo6hbNTnavP-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-157.5" y="18380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-61" value="返回emb a 所在的页" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-60">
+          <mxGeometry x="0.3211" relative="1" as="geometry">
+            <mxPoint x="185" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-62" value="SSD" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="493.5" y="18195" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-63" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="18330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-64" target="e_udUHRprqo6hbNTnavP-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-560" y="18350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-64" value="emb a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="18340" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-66" value="Page Buffer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="18430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-72" target="e_udUHRprqo6hbNTnavP-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-72" value="emb a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="18340" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-76" value="前向传播" style="triangle;whiteSpace=wrap;html=1;rotation=-90;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="18177.5" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-78" target="e_udUHRprqo6hbNTnavP-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-78" value="后向传播" style="triangle;whiteSpace=wrap;html=1;rotation=90;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="18500" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-79" target="e_udUHRprqo6hbNTnavP-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-88" value="emb a index" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-87">
+          <mxGeometry x="0.0987" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-79" value="emb a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="18600" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-81" value="结构1：&lt;div&gt;emb indexes --&amp;gt; page id&lt;/div&gt;&lt;div&gt;+ offset&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-110.52" y="18160" width="185" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-82" value="记录每个emb index所在的页及其在页中的偏移" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-146.03999999999996" y="18140" width="270.52" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-83" target="e_udUHRprqo6hbNTnavP-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-96" value="page id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-95">
+          <mxGeometry x="-0.2571" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-83" target="e_udUHRprqo6hbNTnavP-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-98" value="offset" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-97">
+          <mxGeometry x="0.3724" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-83" value="结构1：&lt;div&gt;emb indexes --&amp;gt; page id&lt;/div&gt;&lt;div&gt;+ offset&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-405" y="18530" width="185" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-84" value="记录每个emb index所在的页及其在页中的偏移" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-440.52" y="18510" width="270.52" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-89" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-565" y="18710" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-90" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-505" y="18740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-91" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-515" y="18750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-92" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-525" y="18760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-93" value="emb a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-525" y="18770" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-94" value="Page Buffer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-525" y="18860" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-99" target="e_udUHRprqo6hbNTnavP-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-110" value="选择 驱逐" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-108">
+          <mxGeometry x="-0.258" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-99" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="19000" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-100" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="19030" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-101" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="19040" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-102" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="19050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-103" value="emb a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="19060" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-104" value="Page Buffer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="19150" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-106" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="19050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-107" value="emb a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="19060" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-111" value="page i" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="19140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="e_udUHRprqo6hbNTnavP-116" source="e_udUHRprqo6hbNTnavP-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="29.72999999999999" y="19100" as="targetPoint" />
+            <mxPoint x="-280.27" y="19100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-113" value="将该页写入SSD中新的位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-112">
+          <mxGeometry x="-0.1395" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-116" target="e_udUHRprqo6hbNTnavP-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-115" value="用新起始地址更新结构2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-114">
+          <mxGeometry x="0.0816" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-116" value="SSD" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="34.22999999999999" y="19050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-117" value="结构2：&lt;div&gt;page id --&amp;gt; SSD起始物理地址&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-270.27" y="19200" width="186.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-118" value="记录每个页在SSD中的起始地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-279.27" y="19335" width="202" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
