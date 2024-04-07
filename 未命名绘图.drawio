@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-07T07:32:03.587Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="Of9LEBmNv1phpzjyekWS" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-07T07:38:03.965Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="UtH8EUOrxLDxvGPbAVYZ" version="24.2.1" type="github">
   <diagram name="第 1 页" id="FLhpQUBvhcODgrL7Z7iP">
     <mxGraphModel dx="1829" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3286,11 +3286,38 @@
         <mxCell id="e_udUHRprqo6hbNTnavP-1" value="emb a" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-230" y="16960" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-2" target="e_udUHRprqo6hbNTnavP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-11" value="page id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-10">
+          <mxGeometry x="-0.0828" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="e_udUHRprqo6hbNTnavP-2" value="结构：&lt;div&gt;emb indexes --&amp;gt; page id&lt;/div&gt;&lt;div&gt;+ offset&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-103.02" y="16900" width="185" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="e_udUHRprqo6hbNTnavP-3" value="记录每个emb index和所在页（偏移）的映射" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-138.54" y="17070" width="270.52" height="10" as="geometry" />
+        <mxCell id="e_udUHRprqo6hbNTnavP-3" value="记录每个emb index所在的页及其在页中的偏移" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-152.01999999999998" y="17060" width="270.52" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="e_udUHRprqo6hbNTnavP-5" target="e_udUHRprqo6hbNTnavP-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="16975" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-13" value="起始地址" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e_udUHRprqo6hbNTnavP-12">
+          <mxGeometry x="-0.1113" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-5" value="结构：&lt;div&gt;page id --&amp;gt; SSD起始物理地址&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="188.00000000000003" y="16917.5" width="186.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-9" value="记录每个页在SSD中的起始地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="17050" width="202" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e_udUHRprqo6hbNTnavP-14" value="SSD" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="501" y="16935" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
