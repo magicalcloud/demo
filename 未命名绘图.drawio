@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T00:55:09.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="J3wMkJ2UtMROioya8LDw" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-18T01:10:06.981Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="Nn4yOxI9eCzqnoAWhmRd" version="24.2.5" type="github">
   <diagram name="第 1 页" id="FLhpQUBvhcODgrL7Z7iP">
     <mxGraphModel dx="2080" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5381,13 +5381,34 @@
           <mxGeometry x="1819.72" y="20030" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gcri2E4vlK_3qdWdRdWO-263" value="两种写日志的方案" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-335" y="21320" width="60" height="30" as="geometry" />
+          <mxGeometry x="-327" y="21367.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gcri2E4vlK_3qdWdRdWO-264" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="-249" y="21275" width="20" height="120" as="geometry" />
+          <mxGeometry x="-249" y="21275" width="20" height="215" as="geometry" />
         </mxCell>
-        <mxCell id="gcri2E4vlK_3qdWdRdWO-265" value="写增量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gcri2E4vlK_3qdWdRdWO-265" value="写修改增量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-220" y="21250" width="74" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gcri2E4vlK_3qdWdRdWO-266" value="写修改后数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220.04" y="21470" width="74" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gcri2E4vlK_3qdWdRdWO-267" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-139" y="21200" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gcri2E4vlK_3qdWdRdWO-268" value="优点：没有写放大问题&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%86%99%E4%BF%AE%E6%94%B9%E5%A2%9E%E9%87%8F%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-220%22%20y%3D%2221250%22%20width%3D%2274%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-113.77" y="21180" width="173.77" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gcri2E4vlK_3qdWdRdWO-269" value="缺点：要扫描整个日志（不利于读）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-114" y="21300" width="234" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gcri2E4vlK_3qdWdRdWO-271" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-127" y="21430" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gcri2E4vlK_3qdWdRdWO-272" value="优点：可以记录新数据的位置（读有利）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-103.02" y="21400" width="233.02" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gcri2E4vlK_3qdWdRdWO-273" value="优点：有可能存在写放大问题&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%86%99%E4%BF%AE%E6%94%B9%E5%A2%9E%E9%87%8F%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-220%22%20y%3D%2221250%22%20width%3D%2274%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphMode&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-101.27" y="21530" width="173.77" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
