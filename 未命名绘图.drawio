@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T18:18:45.140Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="EaAXgbNB2jOu_Co8ukgc" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T14:53:29.804Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="MnMmZKP94uzt2F2ZxQC6" version="24.2.5" type="github">
   <diagram name="第 1 页" id="FLhpQUBvhcODgrL7Z7iP">
-    <mxGraphModel dx="1829" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2649" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5785,6 +5785,39 @@
             <mxPoint x="-520" y="2375" as="sourcePoint" />
             <mxPoint x="-501" y="2375" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JBflMGXA3MVNFXa3JJS6-85" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JBflMGXA3MVNFXa3JJS6-80" target="JBflMGXA3MVNFXa3JJS6-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBflMGXA3MVNFXa3JJS6-80" value="复制" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="2580" width="79" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JBflMGXA3MVNFXa3JJS6-81" value="读取足够SSD日志头部块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="2582.5" width="220" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="JBflMGXA3MVNFXa3JJS6-86" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JBflMGXA3MVNFXa3JJS6-83" target="JBflMGXA3MVNFXa3JJS6-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBflMGXA3MVNFXa3JJS6-83" value="压缩" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-779" y="2670" width="79" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JBflMGXA3MVNFXa3JJS6-84" value="头部块中将还活跃的数据和从RAM刷新的数据打包，一起写入SSD&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E8%AF%BB%E5%8F%96%E8%B6%B3%E5%A4%9FSSD%E6%97%A5%E5%BF%97%E5%A4%B4%E9%83%A8%E5%9D%97%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D16%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-650%22%20y%3D%222582.5%22%20width%3D%22220%22%20height%3D%2235%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E8%AF%BB%E5%8F%96%E8%B6%B3%E5%A4%9FSSD%E6%97%A5%E5%BF%97%E5%A4%B4%E9%83%A8%E5%9D%97%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3BfontSize%3D16%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-650%22%20y%3D%222582.5%22%20width%3D%22220%22%20height%3D%2235%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="2670" width="255" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JBflMGXA3MVNFXa3JJS6-90" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JBflMGXA3MVNFXa3JJS6-87" target="JBflMGXA3MVNFXa3JJS6-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBflMGXA3MVNFXa3JJS6-91" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="JBflMGXA3MVNFXa3JJS6-87" target="JBflMGXA3MVNFXa3JJS6-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBflMGXA3MVNFXa3JJS6-87" value="如何判断是否活跃？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-825.25" y="2810" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JBflMGXA3MVNFXa3JJS6-88" value="如果SSD对象的2元组 &amp;lt;OTID，OTO&amp;gt;和对象表中不一致，则认为是过期对象" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-577.75" y="2753" width="283" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JBflMGXA3MVNFXa3JJS6-89" value="在空闲列表中该对象为”free“，则认为是过期对象" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-574.75" y="2893" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
