@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-06T13:52:23.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="9wlSqipMvT5fTSHtX4ks" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-06T14:50:33.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="mNFbqm6BV_9YCYU_jqeG" version="24.3.1" type="github">
   <diagram name="第 1 页" id="FLhpQUBvhcODgrL7Z7iP">
     <mxGraphModel dx="2043" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6409,11 +6409,14 @@
         <mxCell id="ue1j7bVhxBjrQ2Ob0Nju-219" value="=" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-560" y="25580" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ue1j7bVhxBjrQ2Ob0Nju-223" value="q&lt;sup&gt;10&lt;/sup&gt;&lt;sub&gt;forth&lt;/sub&gt;&amp;nbsp;* K1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-525" y="25490" width="127.5" height="30" as="geometry" />
+        <mxCell id="ue1j7bVhxBjrQ2Ob0Nju-223" value="o&lt;sup&gt;10&lt;/sup&gt;&lt;sub&gt;forth&lt;/sub&gt;&amp;nbsp;* Aij" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-545" y="25490" width="127.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ue1j7bVhxBjrQ2Ob0Nju-224" value="Aij" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-600" y="25580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ue1j7bVhxBjrQ2Ob0Nju-226" value="=" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-447" y="25490" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
