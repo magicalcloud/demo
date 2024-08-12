@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-08-11T17:21:29.067Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="LeUAvU_5Z6iPRYtQAKvA" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-08-12T02:15:52.011Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="mdNkxPwjPNu69hd_CGYl" version="24.5.4" type="github">
   <diagram name="第 1 页" id="FLhpQUBvhcODgrL7Z7iP">
     <mxGraphModel dx="2080" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7490,10 +7490,10 @@
         <mxCell id="jDrLlDsd3fnNguDrflWw-45" value="读IO only" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-25.269999999999982" y="29610" width="139" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jDrLlDsd3fnNguDrflWw-46" value="写IO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jDrLlDsd3fnNguDrflWw-46" value="写IO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-455" y="29270" width="78" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jDrLlDsd3fnNguDrflWw-47" value="读IO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jDrLlDsd3fnNguDrflWw-47" value="读IO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-546.75" y="29270" width="78" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jDrLlDsd3fnNguDrflWw-49" value="写请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -7505,10 +7505,10 @@
         <mxCell id="jDrLlDsd3fnNguDrflWw-51" value="compaction请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-355.13" y="29230" width="123.77" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jDrLlDsd3fnNguDrflWw-52" value="读IO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jDrLlDsd3fnNguDrflWw-52" value="读IO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-332.25" y="29270" width="78" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jDrLlDsd3fnNguDrflWw-53" value="写IO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jDrLlDsd3fnNguDrflWw-53" value="写IO" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-333" y="29300" width="78" height="20" as="geometry" />
         </mxCell>
       </root>
