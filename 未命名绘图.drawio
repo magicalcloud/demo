@@ -7692,7 +7692,7 @@
           <mxGeometry x="-303.27" y="30680" width="18" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nh4r9NcRCVRFvsl2quZy-61" value="预取100batch（115-215）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-258.5" y="30560" width="478.5" height="50" as="geometry" />
+          <mxGeometry x="-258.5" y="30560" width="488.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Nh4r9NcRCVRFvsl2quZy-62" value="14" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-259.25" y="30680" width="18" height="60" as="geometry" />
@@ -7770,7 +7770,7 @@
           <mxGeometry x="-78.5" y="30760" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Nh4r9NcRCVRFvsl2quZy-99" value="预取100batch（216-316）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="244.13000000000002" y="30560" width="478.5" height="50" as="geometry" />
+          <mxGeometry x="244.13" y="30560" width="485.87" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Nh4r9NcRCVRFvsl2quZy-100" value="115" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="243.38000000000002" y="30680" width="18" height="60" as="geometry" />
