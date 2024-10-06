@@ -7875,12 +7875,12 @@
           <mxGeometry x="-256.08" y="31030" width="226.08" height="140" as="geometry" />
         </mxCell>
         <mxCell id="AfgVDt-v6J0XVDa7MhqD-11" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.ssd;" vertex="1" parent="1">
-          <mxGeometry x="121.97" y="31053" width="136.61" height="97" as="geometry" />
+          <mxGeometry x="121.97" y="31060" width="126.75" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="AfgVDt-v6J0XVDa7MhqD-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.997;exitY=0.419;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.001;entryY=0.36;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AfgVDt-v6J0XVDa7MhqD-1" target="AfgVDt-v6J0XVDa7MhqD-10">
+        <mxCell id="AfgVDt-v6J0XVDa7MhqD-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.997;exitY=0.419;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AfgVDt-v6J0XVDa7MhqD-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-330" y="31070" as="sourcePoint" />
-            <mxPoint x="-270" y="31070" as="targetPoint" />
+            <mxPoint x="-256" y="31070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AfgVDt-v6J0XVDa7MhqD-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.072;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AfgVDt-v6J0XVDa7MhqD-10" target="AfgVDt-v6J0XVDa7MhqD-11">
@@ -7889,20 +7889,14 @@
             <mxPoint x="122" y="31093" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AfgVDt-v6J0XVDa7MhqD-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.997;entryY=0.652;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AfgVDt-v6J0XVDa7MhqD-10" target="AfgVDt-v6J0XVDa7MhqD-1">
+        <mxCell id="AfgVDt-v6J0XVDa7MhqD-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.997;entryY=0.652;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="AfgVDt-v6J0XVDa7MhqD-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-270" y="31110" as="sourcePoint" />
+            <mxPoint x="-260" y="31114" as="sourcePoint" />
             <mxPoint x="-350" y="31110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AfgVDt-v6J0XVDa7MhqD-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.014;exitY=0.485;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AfgVDt-v6J0XVDa7MhqD-11" target="AfgVDt-v6J0XVDa7MhqD-10">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="88" y="31112" as="sourcePoint" />
-            <mxPoint x="-11.539999999999964" y="31112.499999999996" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="AfgVDt-v6J0XVDa7MhqD-24" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="333.75" y="30979" width="194" height="60" as="geometry" />
+          <mxGeometry x="-232" y="31087" width="194" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AfgVDt-v6J0XVDa7MhqD-16" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#B3B3B3;strokeColor=#b85450;" vertex="1" parent="AfgVDt-v6J0XVDa7MhqD-24">
           <mxGeometry width="41.1195652173913" height="11.009174311926605" as="geometry" />
@@ -7926,16 +7920,40 @@
           <mxGeometry x="152.8804347826087" y="48.99082568807339" width="41.1195652173913" height="11.009174311926605" as="geometry" />
         </mxCell>
         <mxCell id="AfgVDt-v6J0XVDa7MhqD-25" value="memtable" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;" vertex="1" parent="1">
-          <mxGeometry x="334.39" y="30940" width="73" height="20" as="geometry" />
+          <mxGeometry x="-231.36" y="31048" width="73" height="20" as="geometry" />
         </mxCell>
         <mxCell id="AfgVDt-v6J0XVDa7MhqD-26" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-187" y="30830" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AfgVDt-v6J0XVDa7MhqD-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.072;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="AfgVDt-v6J0XVDa7MhqD-28" value="Flush" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5" y="31018" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfgVDt-v6J0XVDa7MhqD-29" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.014;exitY=0.485;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-30.03" y="31135" as="sourcePoint" />
-            <mxPoint x="121.97" y="31130" as="targetPoint" />
+            <mxPoint x="120" y="31140" as="sourcePoint" />
+            <mxPoint x="-30" y="31140" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AfgVDt-v6J0XVDa7MhqD-30" value="compaction" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="16" y="31071" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfgVDt-v6J0XVDa7MhqD-31" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.511;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AfgVDt-v6J0XVDa7MhqD-10" target="AfgVDt-v6J0XVDa7MhqD-11">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="10" y="30890" as="sourcePoint" />
+            <mxPoint x="110" y="30790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AfgVDt-v6J0XVDa7MhqD-32" value="read" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="31150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfgVDt-v6J0XVDa7MhqD-33" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;大型模型参数访问特征分析&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-554.12" y="31200" width="138" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AfgVDt-v6J0XVDa7MhqD-34" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;基于LSM-Tree的外部存储数据管理中间件设计&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-252.5" y="31170" width="216.37" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AfgVDt-v6J0XVDa7MhqD-36" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;外部存储读写数据特征分析&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115.83" y="31170" width="137.34" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
